@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>fspg.io | Fullstack Playground</title>
+		<title>Fullstack Playground | fspg.io</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap&effect=3d&text=FSPG.io" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 <style>
 .is-dirty-sprite {
@@ -14,6 +15,20 @@
 	background-position: right;
 	background-repeat: no-repeat;
 	background-color: #f9f9f9 !important;
+}
+
+.logo {
+	font-family: 'Fugaz One';
+	font-size: 8rem; 
+	color: #94cdef;
+}
+
+.io {
+	font-size: 2rem;
+}
+
+.main-body {
+	margin-top: -10rem;
 }
 
 @media only screen and (max-width: 960px) {
@@ -26,7 +41,12 @@
 	</head>
 	<body>
 		<section class="section hero is-fullheight is-dirty-sprite">
-			<div class="hero-body">
+			<div class="hero-head">
+				<div class="container logo">
+					<h1>FSPG<span class="io">.io<span></h1>
+				</div>
+			</div>
+			<div class="hero-body main-body">
 				<div class="container">
 					<h1 class="title">
 						Fullstack Playground
@@ -34,6 +54,10 @@
 					<p class="subtitle">
 						The world's leading interactive fullstack challenge competition.
 					</p>
+				</div>
+			</div>
+			<div class="hero-foot">
+				<div class="container has-text-centered">
 					<span class="is-size-7">Interested? Click <a href="#">here</a> to request an invite.</span>
 				</div>
 			</div>
